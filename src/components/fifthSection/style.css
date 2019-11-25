@@ -1,0 +1,215 @@
+  .footer-container{
+    height: 37rem;
+    width: 100%;
+    background-color: #2b2b2b;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 3rem;
+  }
+  
+  .container-tex{
+    height: 30rem;
+    background-color: transparent;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  
+  .first{
+    float: left;
+    height: 28rem;
+    width: 47%;
+  
+  }
+  
+  .second{
+    float: right;
+    height: 28rem;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .containe-icons{
+    padding-top: 2rem;
+  }
+  
+  .icon{
+    padding: .2rem;
+  }
+
+  .img-fifth{
+    width: 8rem;
+  }
+
+  @media (max-width: 768px){
+    .first{
+      padding-left: 2rem;
+    }
+
+    .img-fifth{
+      width: 10rem;
+    }
+
+    .logoblaco-footer{
+      padding-left: 2rem;
+    }
+
+  }
+
+  @media (max-width: 425px){
+    .first{
+      padding-left: 1rem;
+    }
+
+    .logoblaco-footer{
+      padding-left: 1rem;
+    }
+  }
+
+  @media (max-width: 1024px){
+
+    .footer-container-desktop{
+      height: 37rem;
+      width: 100%;
+      background-color: #2b2b2b;
+      margin: 0%;
+      padding: 0%;
+      padding-top: 3rem;
+    }
+
+    .column-one{
+      width: 23%;
+      height: 10rem;
+      padding-top: 2rem;
+      padding-left: 3rem;
+    }
+
+    .column-two{
+      width: 23%;
+      height: 30rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+    }
+
+    .column-three{
+      width: 23%;
+      height: 30rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+    }
+
+    .column-four{
+      width: 23%;
+      height: 30rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+    }
+
+    .container-colums-desktop{
+      border-top: 2px solid white;
+      border-bottom: 2px solid white;
+      height: 30rem;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .logoblaco-footer-desktop{
+      padding-left: 3rem;
+    }
+
+  }
+
+  @media (min-width: 1440px){
+
+    .footer-container-desktop{
+      height: 37rem;
+      width: 100%;
+      background-color: #2b2b2b;
+      margin: 0%;
+      padding: 0%;
+      padding-top: 3rem;
+    }
+
+    .column-one{
+      width: 23%;
+      height: 10rem;
+      padding-top: 2rem;
+      padding-left: 3rem;
+    }
+
+    .column-two{
+      width: 23%;
+      height: 30rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+    }
+
+    .column-three{
+      width: 23%;
+      height: 30rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+    }
+
+    .column-four{
+      width: 23%;
+      height: 30rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+    }
+
+    .container-colums-desktop{
+      border-top: 2px solid white;
+      border-bottom: 2px solid white;
+      height: 30rem;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .logoblaco-footer-desktop{
+      padding-left: 3rem;
+    }
+
+  }
+
+ 
+
+  
+
+  @media (max-width: 320px){
+    .img-fifth{
+      width: 7rem;
+    }
+  }
+
+/* ------------------------------------- */
+/* BLOCK-NONE */
+  @media (max-width: 768px){
+    .footer-container-desktop{
+      display: none;
+    }
+  }
+
+
+  @media (min-width: 1024px){
+    .footer-container{
+      display: none
+    }
+  }

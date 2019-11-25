@@ -1,0 +1,67 @@
+.container-register{
+  height: 45rem;
+  width: 40rem;
+  background-color: dimgrey;
+  border-radius: 15px;
+  font-size: 1.2rem;
+}
+
+.container-principal-register{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.question{
+  width: 35rem;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.icon-x{
+  color: white;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.container-iconx{
+  display: flex;
+  flex-direction: row;  
+}
+
+.form-register{
+  height: 45rem;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.name{
+  width: 25rem;
+  height: 1.5rem;
+  border-radius: 10px;
+  padding-left: 1rem;
+}
+
+.send{
+  height: 3rem;
+  width: 27rem;
+  background-color: aqua;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

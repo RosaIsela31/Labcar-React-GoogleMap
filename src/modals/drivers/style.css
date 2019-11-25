@@ -1,0 +1,28 @@
+.form-drivers{
+  padding-left: 3rem;
+}
+
+.select{
+  height: 2.5rem;
+  width: 25rem;
+  background-color: azure;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.container-driver{
+  height: 55rem;
+  width: 40rem;
+  background-color: dimgrey;
+  border-radius: 15px;
+  font-size: 1.2rem;
+}
+
+.send-driver{
+  height: 3rem;
+  width: 34rem;
+  background-color: aqua;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,154 @@
+  .navbar-mobile{
+    display: block;
+  }
+
+  .icon-burger{
+    display: inline;
+  }
+
+  .burger-container{
+    background-color: dimgray;
+    width: 3rem;
+    height: 2.5;
+    border-radius: 5px;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon-burger{
+    height: 2.2rem;
+    width: 2.2rem;
+    color: white;
+  }
+  
+  .navbar-mobile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    height: 5rem;
+    width: 100%;
+  }
+
+
+  @media (max-width: 768px){
+    .tags-a{
+      color: black;
+      display: inline-block;
+      font-size: 1.1rem;
+    }
+
+    ul{
+      margin: 0%;
+      padding: 0%;
+      width: 100%;
+    }
+
+    li{
+      list-style: none;
+      display: inline-block;
+      padding: 1rem;
+    }
+
+    .logo-initial{
+      margin-right: 5rem;
+    }
+  }
+
+  @media (max-width: 1024px){
+
+    .navbar-mobile{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      align-content: center;
+      height: 7rem;
+      width: 100%;
+    }
+
+    .tags-a{
+      color: black;
+      display: inline-block;
+      font-size: 1.1rem;
+    }
+
+    ul{
+      margin: 0%;
+      padding: 0%;
+      width: 100%;
+    }
+
+    li{
+      list-style: none;
+      display: inline-block;
+      padding: 1rem;
+    }
+  }
+
+
+  @media (min-width: 1024px){
+    .logo-initial{
+      margin-right: 18rem;
+    }
+  }
+
+  @media (min-width: 1440px){
+
+    .navbar-mobile{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      align-content: center;
+      height: 7rem;
+      width: 100%;
+    }
+
+    .tags-a{
+      color: black;
+      display: inline-block;
+      font-size: 1.1rem;
+    }
+
+    ul{
+      margin: 0%;
+      padding: 0%;
+      width: 100%;
+    }
+
+    li{
+      list-style: none;
+      display: inline-block;
+      padding: 1rem;
+    }
+
+    .logo-initial{
+      margin-right: 40rem;
+    }
+
+    
+  }
+
+
+
+/* ----------------------------------------------- */
+/* Display none-min */
+/* @media (min-width: 768px){
+  .tags-a{
+    display: none;
+  }
+} */
+
+@media (min-width: 768px){
+  .icon-burger{
+    display: none;
+  }
+}
+
+@media (max-width: 425px){
+  .tags-a{
+    display: none;
+  }
+}

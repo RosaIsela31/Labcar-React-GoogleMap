@@ -1,0 +1,114 @@
+  .drive{
+    height: 20rem;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .rgba-drive{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 20rem;
+    width: 100%;
+    position: relative;
+  }
+  
+  .container-drive{
+    display: flex;
+  }
+  
+  .text-thirdcontainer{
+    padding: 1rem;
+  }
+  
+  .btn-thirdsection{
+    background-color: #f7b617;
+    height: 3rem;
+    width: 17rem;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 8px;
+  
+  }
+  
+  .container-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
+
+  @media (min-width: 768px){
+    .container-drive{
+      display: none;
+    }
+
+    .container-drive-tablet{
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 30rem;
+      width: 100%;
+      position: relative;
+    }
+
+    .drive-tablet{
+      height: 30rem;
+      position: absolute;
+      width: 100%;
+
+    }
+
+    .rgba-drive-tablet{
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 30rem;
+      width: 100%;
+      position: relative;
+    }
+
+    .p-text{
+      padding: 2rem;
+    }
+
+    .text-thirdcontainer-tablet{
+      padding: 3rem;
+
+    }
+
+    .container-button-tablet{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+    }
+
+    .btn-thirdsection-tablet{
+      background-color: #f7b617;
+      height: 3rem;
+      width: 17rem;
+      color: white;
+      font-size: 1.1rem;
+      border-radius: 8px;
+    }
+  }
+
+
+  @media (min-width: 1024px){
+    .rgba-drive-tablet{
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 30rem;
+      width: 40%;
+      position: relative;
+    }
+
+    .container-drive-tablet{
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  }
+
+/* ------------------------------------------ */
+/* BLOCK - NONE */
+  @media (max-width: 425px){
+    .container-drive-tablet{
+      display: none;
+    }
+  }
+

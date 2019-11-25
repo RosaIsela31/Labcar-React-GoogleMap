@@ -1,0 +1,61 @@
+.container-modalregister{
+  height: 30rem;
+  width: 30rem;
+  background-color: lightcoral;
+}
+
+.modallogin-all{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding-top: 5rem;
+}
+
+.x{
+  padding: 1rem;
+}
+
+.container-user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  font-size: 8rem;
+}
+
+.form{
+  height: 13rem;
+  width: 22rem;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.input{
+  width: 13rem;
+  border: 1px solid lightcoral;
+}
+
+.icon-input{
+  color: dimgray;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  font-size: 1.3rem;
+}
+
+.btn-login{
+  height: 3.5rem;
+  height: 2.5rem;
+  background-color: #f7b617;
+  font-size: 1rem;
+  margin: 1rem;
+
+}
+
+.div-btn-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
